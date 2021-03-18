@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="tableStyle.css">
+	<title>Document</title>
+</head>
+
+<body>
+
+	<div class="container">
+		<form class="container__form" action="#" method="GET">
+			<input type="button" id="getTable" value="Получить данные">
+			<input type="button" id="add" value="Добавить данные">
+
+			<div class="block-container__form">
+				<input type="text" name="firstname" class="firstname" placeholder="Имя">
+				<input type="text" name="lastname" class="lastname" placeholder="Фамилия">
+				<input type="text" name="text" class="text" placeholder="Ваш текст">
+				<input type="button" id="addRow" value="Добавить">
+				<input class="out" type="text" placeholder="Результат">
+			</div>
+
+
+		</form>
+
+		<div class="container__wrapp">
+			<div id="delRow" class="container__table"></div>
+		</div>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+
+</html>
